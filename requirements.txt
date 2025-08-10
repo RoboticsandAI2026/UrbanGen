@@ -2,6 +2,8 @@
 setuptools>=70.0.0
 wheel>=0.43.0
 pip>=25.1.1
+tensorflow==2.16.1
+
 
 # Core web framework
 streamlit==1.36.0
