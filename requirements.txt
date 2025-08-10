@@ -2,14 +2,17 @@
 setuptools>=70.0.0
 wheel>=0.43.0
 pip>=25.1.1
-tensorflow==2.16.1
 
+# ML frameworks
+tensorflow==2.16.1
+torch==2.4.0
+torchvision==0.19.0
 
 # Core web framework
 streamlit==1.36.0
 
-# Scientific & image stack (3.13 compatible)
-numpy==2.0.2
+# Scientific & image stack
+numpy==1.26.4
 pandas==2.2.2
 matplotlib==3.9.2
 Pillow==10.4.0
@@ -22,10 +25,6 @@ scipy==1.14.1
 plotly==5.23.0
 pyvista==0.43.8
 trimesh==4.4.3
-
-# ML (CPU fallback)
-torch==2.4.0
-torchvision==0.19.0
 
 # Utilities
 tqdm==4.66.5
