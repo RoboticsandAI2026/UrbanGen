@@ -11,7 +11,7 @@ from skimage.measure import find_contours
 import json
 from datetime import datetime
 import traceback
-from BoundaryProcessor import BoundaryProcessor  # Import the new BoundaryProcessor
+from Boundary_extend import BoundaryProcessor  # Import the new BoundaryProcessor
 
 class UNetProcessor:
     """
@@ -1173,4 +1173,5 @@ def prepare_for_voronoi(self, segmentation_data):
             
             samples[f"sample_{i}"] = img_path
         
+
         return samples
