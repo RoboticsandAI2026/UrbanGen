@@ -11,7 +11,7 @@ from skimage.measure import find_contours
 import json
 from datetime import datetime
 import traceback
-from Boundary_extend import BoundaryProcessor  # Import the new BoundaryProcessor
+from BoundaryProcessor import BoundaryProcessor  # Import the new BoundaryProcessor
 
 class UNetProcessor:
     """
